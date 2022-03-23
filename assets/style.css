@@ -211,20 +211,20 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
   }
   /* Links –––––––––––––––––––––––––––––––––––––––––––––––––– */
   a {
-    color: #1EAEDB;
+    color: #0b1781;
     text-decoration: underline;
     cursor: pointer;
   }
   a:hover {
-    color: #0FA0CE;
+    color: #1fce0f;
   }
   /* Buttons –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .rc-slider-track{
-    background-color: #007eff
+    background-color: #09529b
   }
   
   .rc-slider-rail{
-    background-color: #505050
+    background-color: #332727
   }
   
   
@@ -245,7 +245,7 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
     display: inline-block;
     height: 38px;
     padding: 0 30px;
-    color: #555;
+    color: rgb(221, 13, 13);
     text-align: center;
     font-size: 11px;
     font-weight: 600;
