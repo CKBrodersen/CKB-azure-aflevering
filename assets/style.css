@@ -144,6 +144,7 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
     font-size: 62.5%;
   }
   body {
+    background-color: #1E1E1E;
     font-size: 1.5em;
    /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
@@ -211,20 +212,20 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
   }
   /* Links –––––––––––––––––––––––––––––––––––––––––––––––––– */
   a {
-    color: #0b1781;
+    color: #1EAEDB;
     text-decoration: underline;
     cursor: pointer;
   }
   a:hover {
-    color: #1fce0f;
+    color: #0FA0CE;
   }
   /* Buttons –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .rc-slider-track{
-    background-color: #09529b
+    background-color: #199219
   }
   
   .rc-slider-rail{
-    background-color: #332727
+    background-color: #505050
   }
   
   
@@ -245,7 +246,7 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
     display: inline-block;
     height: 38px;
     padding: 0 30px;
-    color: rgb(221, 13, 13);
+    color: rgb(19, 130, 158);
     text-align: center;
     font-size: 11px;
     font-weight: 600;
@@ -272,8 +273,8 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
   }
   .button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover, .button.button-primary:focus, button.button-primary:focus, input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
     color: #FFF;
-    background-color: #1EAEDB;
-    border-color: #1EAEDB;
+    background-color: #14a032;
+    border-color: #14a032;
   }
   /* Forms –––––––––––––––––––––––––––––––––––––––––––––––––– */
   input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
@@ -345,7 +346,7 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
   th, td {
     padding: 12px 15px;
     text-align: left;
-    border-bottom: 1px solid #E1E1E1;
+    border-bottom: 1px solid #ffffff;
   }
   th:first-child, td:first-child {
     padding-left: 0;
@@ -494,7 +495,7 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
     max-height: 82px;
     overflow-y: auto;
     margin: 0px 0px -3px 0px;
-    border: 0.5px solid #dbdbdb44;
+    border: 0.5px solid #03030344;
   }
   
   .Select-control{
